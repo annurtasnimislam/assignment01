@@ -1,0 +1,54 @@
+body {
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.help-people {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.donate-today {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#display-flex {
+    display: flex;
+}
+
+.customize-button {
+    padding: 20px 30px;
+    margin: auto;
+    font-size: larger;
+}
+
+#unique-color {
+    background-color: rgba(255, 99, 71, 0.326);
+    border-color: tomato;
+    color: tomato;
+}
