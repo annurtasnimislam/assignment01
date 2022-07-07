@@ -13,10 +13,13 @@ body {
     color: white;
     margin-bottom: 100px;
 }
+#placeholder01{
+    margin-bottom: 30px;
+}
 
 .link-button {
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 20px 40px;
     border-radius: 5px;
     background-color: tomato;
     color: white;
@@ -36,6 +39,9 @@ h2 {
     text-align: center;
     margin-bottom: 50px;
 }
+#placeholder02{
+    color: rgba(0, 0, 0, 0.617);
+}
 
 #display-flex {
     display: flex;
@@ -45,10 +51,32 @@ h2 {
     padding: 20px 30px;
     margin: auto;
     font-size: larger;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 #unique-color {
     background-color: rgba(255, 99, 71, 0.326);
     border-color: tomato;
     color: tomato;
+}
+.input-customize{
+    text-align: center;
+    padding: 10px 10px;
+}
+.submit-button{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 99, 71, 0.958);
+    color: white;
+    font-size: large;
+}
+#input-field{
+    border-color: gray;
+    padding: 10px 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+    color: gray;
 }
