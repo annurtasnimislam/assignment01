@@ -35,7 +35,7 @@ h2 {
     font-size: 30px;
 }
 
-.donate-today {
+.center-align {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -43,7 +43,7 @@ h2 {
     color: rgba(0, 0, 0, 0.617);
 }
 
-#display-flex {
+.display-flex {
     display: flex;
 }
 
@@ -64,13 +64,14 @@ h2 {
     text-align: center;
     padding: 10px 10px;
 }
-.submit-button{
+#submit-button{
     text-decoration: none;
     padding: 20px 40px;
     border-radius: 10px;
     background-color: rgba(255, 99, 71, 0.958);
     color: white;
     font-size: large;
+    margin-bottom: 70px;
 }
 #input-field{
     border-color: gray;
@@ -79,4 +80,36 @@ h2 {
     text-align: center;
     font-size: larger;
     color: gray;
+}
+.box{
+    text-align: left;
+    width: 70%;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
+    border-radius: 20px;
+}
+#food{
+    background-color: rgba(255, 182, 193, 0.781);
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+}
+#shelter{
+    background-color: bisque;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+}
+#education{
+    background-color: rgba(95, 158, 160, 0.451);
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#humble{
+    color: tomato;
 }
